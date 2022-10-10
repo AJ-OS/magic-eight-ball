@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    align-items: center;
+    display: grid;
+    background-image: url("icons/pooltablebackground.jpeg");
+    background-repeat: no-repeat;    
+    background-size: cover;
+}
+.holdingball{
+    width: 750px;
+    height: 625px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+} 
+.button1{
+    width: 165px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.button{
+    width: 300px;
+    height: 85px;
+    background-color: rgb(46, 7, 243);
+    border-radius: 4px;
+    color: white;
+    font-size: 1.25rem;
+    outline: none;
+    cursor: pointer;
+}
+.linkedIn{
+    height: 55px;
+    width: 55px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.gitHub{
+    height: 55px;
+    width: 55px;
+    position: absolute;
+    top: 0px;
+    right: 70px;
+}
+.startingText{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    right: 660px;
+    top: 300px;
+    font-family: 'Times New Roman', Times, serif;
+}
